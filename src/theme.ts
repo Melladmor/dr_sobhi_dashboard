@@ -24,8 +24,12 @@ const theme = extendTheme({
         color: props.colorMode === "dark" ? "gray.300" : "gray.800",
       },
       ".content": {
-        bg: props.colorMode === "dark" ? "#2C2C2C" : "white",
+        bg: props.colorMode === "dark" ? "#2C2C2C" : "#F9F9F9",
         color: props.colorMode === "dark" ? "gray.400" : "gray.800",
+      },
+      ".iconsidebar_conatiner": {
+        bg: props.colorMode === "dark" ? "#1A1A1A" : "#22B9DD",
+        color: props.colorMode === "dark" ? "gray.300" : "white",
       },
     }),
   },

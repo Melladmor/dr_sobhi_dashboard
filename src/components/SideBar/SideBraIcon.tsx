@@ -2,7 +2,7 @@ import { div } from "framer-motion/client";
 
 const SideBraIcon = () => {
   return (
-    <div className="h-[120px] flex justify-center items-center bg-[#22B9DD]">
+    <div className="h-[120px] flex justify-center items-center iconsidebar_conatiner">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         className="size-[70px]"
