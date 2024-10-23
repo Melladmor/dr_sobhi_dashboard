@@ -8,7 +8,7 @@ const Layout = () => {
       <SideBar />
       <main className="w-[85%] bg-red-600">
         <Header />
-        <div className="w-full h-screen p-[20px]">
+        <div className="w-full h-screen overflow-y-scroll p-[20px]">
           <Outlet />
         </div>
       </main>
